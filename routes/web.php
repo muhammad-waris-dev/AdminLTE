@@ -7,6 +7,4 @@ Route::get('/', function () {
 });
 Route::view('admin', 'admin');
 
-Route::get('/admin/dashboard', function () {
-    return view('stater');
-});
+
